@@ -6,3 +6,190 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    color: #1a1a1a;
+    line-height: 1.5;
+}
+
+/* header and nav */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
+}
+
+.nav-bar {
+    position: fixed;
+}
+
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-bar a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.spotify-logo {
+    width: 200px;
+    float: left;
+    margin: 1em
+}
+
+.white-text {
+    color: #fff;
+}
+
+/* music */
+
+.landing-image {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.landing-text {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 35%;
+    bottom: 50%;
+    left: 10%;
+    right: 10%;
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+    letter-spacing: 1;
+}
+
+.landing-text h1 {
+    font-size: 5.7rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+.landing-text p {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+
+/* music-choice */
+
+.music-choice h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00b172;
+    text-underline-offset: 40%;
+}
+
+.spotify-items {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3em 0;
+}
+
+.icon {
+    width: 200px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 0 4em
+}
+
+.green-text {
+    color: #00b172;
+}
+
+/* features */
+
+.features {
+    background: #00b172;
+    color: #fff;
+    margin: 0 2em;
+    padding: 4em 5em;
+}
+
+.features-overview {
+    text-decoration: underline;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    font-size: 2rem;
+    text-underline-offset: 40%;
+}
+
+.feature-text {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.text {
+    width: 350px;
+}
+
+.text p {
+    margin-bottom: 1.5em;
+}
+
+.spotify-icon-white {
+    transform: scale(.2);
+    position: absolute;
+    top: 20%;
+    bottom: 45%;
+    left: 10%;
+    right: 10%;
+}
+
+.feature-images {
+    transform: scale(.6);
+    position: absolute;
+    left: 70%;
+    right: 70%;
+    top: -20%;
+    bottom: 30%;
+
+}
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
