@@ -28,16 +28,19 @@ header {
     flex-direction: column;
 }
 
+.head {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #fff;
+    z-index: 10;
+}
+
 .navigation {
     display: flex;
     justify-content: flex-end;
     padding-right: 1em;
 }
-
-.nav-bar {
-    position: fixed;
-}
-
 
 .nav-bar ul {
     display: flex;
